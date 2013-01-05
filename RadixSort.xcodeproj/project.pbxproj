@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF500A11697A49B0039CA00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF500A01697A49B0039CA00 /* Foundation.framework */; };
+		1FF500A41697A49B0039CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF500A31697A49B0039CA00 /* main.m */; };
+		1FF500A81697A49B0039CA00 /* RadixSort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FF500A71697A49B0039CA00 /* RadixSort.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FF5009A1697A49B0039CA00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1FF500A81697A49B0039CA00 /* RadixSort.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FF5009C1697A49B0039CA00 /* RadixSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RadixSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF500A01697A49B0039CA00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF500A31697A49B0039CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF500A61697A49B0039CA00 /* RadixSort-Prefix.pch */ = {isa = PBXFileReference; path = "RadixSort-Prefix.pch"; sourceTree = "<group>"; };
+		1FF500A71697A49B0039CA00 /* RadixSort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RadixSort.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF500991697A49B0039CA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF500A11697A49B0039CA00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF500911697A49B0039CA00 = {
+			isa = PBXGroup;
+			children = (
+				1FF500A21697A49B0039CA00 /* RadixSort */,
+				1FF5009F1697A49B0039CA00 /* Frameworks */,
+				1FF5009D1697A49B0039CA00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF5009D1697A49B0039CA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5009C1697A49B0039CA00 /* RadixSort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF5009F1697A49B0039CA00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF500A01697A49B0039CA00 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF500A21697A49B0039CA00 /* RadixSort */ = {
+			isa = PBXGroup;
+			children = (
+				1FF500A31697A49B0039CA00 /* main.m */,
+				1FF500A71697A49B0039CA00 /* RadixSort.1 */,
+				1FF500A51697A49B0039CA00 /* Supporting Files */,
+			);
+			path = RadixSort;
+			sourceTree = "<group>";
+		};
+		1FF500A51697A49B0039CA00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF500A61697A49B0039CA00 /* RadixSort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF5009B1697A49B0039CA00 /* RadixSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF500AB1697A49B0039CA00 /* Build configuration list for PBXNativeTarget "RadixSort" */;
+			buildPhases = (
+				1FF500981697A49B0039CA00 /* Sources */,
+				1FF500991697A49B0039CA00 /* Frameworks */,
+				1FF5009A1697A49B0039CA00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadixSort;
+			productName = RadixSort;
+			productReference = 1FF5009C1697A49B0039CA00 /* RadixSort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF500931697A49B0039CA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "France Telecom Group (Orange) San Francisco";
+			};
+			buildConfigurationList = 1FF500961697A49B0039CA00 /* Build configuration list for PBXProject "RadixSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF500911697A49B0039CA00;
+			productRefGroup = 1FF5009D1697A49B0039CA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF5009B1697A49B0039CA00 /* RadixSort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF500981697A49B0039CA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF500A41697A49B0039CA00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FF500A91697A49B0039CA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FF500AA1697A49B0039CA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FF500AC1697A49B0039CA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadixSort/RadixSort-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FF500AD1697A49B0039CA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadixSort/RadixSort-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF500961697A49B0039CA00 /* Build configuration list for PBXProject "RadixSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF500A91697A49B0039CA00 /* Debug */,
+				1FF500AA1697A49B0039CA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF500AB1697A49B0039CA00 /* Build configuration list for PBXNativeTarget "RadixSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF500AC1697A49B0039CA00 /* Debug */,
+				1FF500AD1697A49B0039CA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF500931697A49B0039CA00 /* Project object */;
+}
