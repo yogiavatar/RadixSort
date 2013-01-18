@@ -29,7 +29,7 @@
 		1FF5009C1697A49B0039CA00 /* RadixSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RadixSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF500A01697A49B0039CA00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FF500A31697A49B0039CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1FF500A61697A49B0039CA00 /* RadixSort-Prefix.pch */ = {isa = PBXFileReference; path = "RadixSort-Prefix.pch"; sourceTree = "<group>"; };
+		1FF500A61697A49B0039CA00 /* RadixSort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadixSort-Prefix.pch"; sourceTree = "<group>"; };
 		1FF500A71697A49B0039CA00 /* RadixSort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RadixSort.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
